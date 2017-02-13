@@ -1,0 +1,15 @@
+{
+  "name": "pi-rover",
+  "version": "1.0.0",
+  "description": "This repo contains code for the client and server of the pi-rover.  This was a hobby project so things may not work perfectly.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.14.1"
+  }
+}
