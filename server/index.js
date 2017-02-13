@@ -23,6 +23,9 @@ app.put('/rover', function (req, res) {
 		case 'backward':
 			piRover.backward();
 			break;
+		case 'stop':
+			piRover.stop();
+			break;
 		default:
 			break;
 	}
