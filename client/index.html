@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pi-rover</title>
+	<link rel="stylesheet" href="./rover.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="header" role="heading">
+	<span class="header__heading">pi-rover</span>
+</div>
+
+<div class="controls-container">
+	<div class="controls">
+		<div class="controls__row">
+			<button type="button" 
+					id="forward-button" 
+					class="controls__forward"
+					onclick="directionPressed('forward')">
+				F
+			</button>
+		</div>
+		<div class="controls__row">
+			<button type="button" 
+					id="left-button" 
+					class="controls__left"
+					onclick="directionPressed('left')">
+				L
+			</button>
+			<button type="button"
+					id="stop-button"
+					class="controls__stop controls__active-control"
+					onclick="directionPressed('stop')">
+				-
+			</button>
+			<button type="button" 
+					id="right-button" 
+					class="controls__right"
+					onclick="directionPressed('right')">
+				R
+			</button>
+		</div>
+		<div class="controls__row">
+			<button type="button" 
+					id="backward-button" 
+					class="controls__backward"
+					onclick="directionPressed('backward')">
+				B
+			</button>
+		</div>
+	</div>
+</div>
+
+<script src="./rover.js"></script>
+
+</body>
+</html>
