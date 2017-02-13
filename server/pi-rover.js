@@ -1,21 +1,21 @@
 function forward() {
-	console.log('FORWARD');
+	console.log(new Date().toLocaleString() + ' -- FORWARD');
 }
 
 function left() {
-	console.log('LEFT');
+	console.log(new Date().toLocaleString() + ' -- LEFT');
 }
 
 function right() {
-	console.log('RIGHT');
+	console.log(new Date().toLocaleString() + ' -- RIGHT');
 }
 
 function backward() {
-	console.log('BACKWARD');
+	console.log(new Date().toLocaleString() + ' -- BACKWARD');
 }
 
 function stop() {
-	console.log('STOP');
+	console.log(new Date().toLocaleString() + ' -- STOP');
 }
 
 module.exports = {
