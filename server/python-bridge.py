@@ -25,9 +25,10 @@ def moveRobot(speed, direction):
 line=' '
 while line:
 	line = sys.stdin.readline()
+	print line
 	splitData = line.split()
 	print 'SPEED: [' + splitData[0] + '] DIRECTION: [' + splitData[1] + ']'
 	sys.stdout.flush()
-	moveRobot()
+	moveRobot(splitData[0], splitData[1])
 
 print 'DONE'

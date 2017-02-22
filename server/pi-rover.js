@@ -15,27 +15,27 @@ let SPEED = 25;
 
 function forward() {
 	console.log(new Date().toLocaleString() + ' -- FORWARD');
-	bridge.send(SPEED, 'forward');
+	bridge.send(SPEED + ' forward');
 }
 
 function left() {
 	console.log(new Date().toLocaleString() + ' -- LEFT');
-	bridge.send(SPEED, 'left');
+	bridge.send(SPEED + ' left');
 }
 
 function right() {
 	console.log(new Date().toLocaleString() + ' -- RIGHT');
-	bridge.send(SPEED, 'right');
+	bridge.send(SPEED + ' right');
 }
 
 function backward() {
 	console.log(new Date().toLocaleString() + ' -- BACKWARD');
-	bridge.send(SPEED, 'backward');
+	bridge.send(SPEED + ' backward');
 }
 
 function stop() {
 	console.log(new Date().toLocaleString() + ' -- STOP');
-	bridge.send(SPEED, 'stop');
+	bridge.send(SPEED + ' stop');
 }
 
 module.exports = {
