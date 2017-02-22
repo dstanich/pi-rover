@@ -11,13 +11,13 @@ robot = Robot.Robot(left_id=1, right_id=3)
 # Issue call to API for direction and speed changes
 def moveRobot(speed, direction):
 	if direction == 'forward':
-		robot.forward(speed)
+		robot.forward(int(speed))
 	elif direction == 'left':
-		robot.left(speed)
+		robot.left(int(speed))
 	elif direction == 'right':
-		robot.right(speed)
+		robot.right(int(speed))
 	elif direction == 'backward':
-		robot.backward(speed)
+		robot.backward(int(speed))
 	elif direction == 'stop':
 		robot.stop()
 
