@@ -19,7 +19,7 @@ def moveRobot(speed, direction):
 	elif direction == 'backward':
 		robot.backward(speed)
 	elif direction == 'stop':
-		robot.stop(speed)
+		robot.stop()
 
 # Main loop -- listen for commands
 line=' '
