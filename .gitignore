@@ -1,2 +1,4 @@
 node_modules
 Adafruit-Motor-HAT-Python-Library
+npm-debug.log
+.vscode
