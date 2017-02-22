@@ -6,7 +6,7 @@ sys.path.insert(0, './Adafruit-Motor-HAT-Python-Library/examples')
 import Robot
 
 # Create instance of the Robot
-robot = Robot.Robot(left_id=1, right_id=3)
+robot = Robot.Robot(left_id=1, right_id=2)
 
 # Issue call to API for direction and speed changes
 def moveRobot(speed, direction):
