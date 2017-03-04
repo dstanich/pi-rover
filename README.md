@@ -2,11 +2,9 @@
 This repo contains software and information on a hobby project for a remote controlled Raspberry Pi rover.
 
 ## Videos and Screenshot
-![Web UI](https://github.com/dstanich/pi-rover/raw/master/web_ui_example.png "Web UI")
+<img src="https://github.com/dstanich/pi-rover/raw/master/web_ui_example.png" height="300px" alt="Web UI">
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=qJu69sHTsoA
-" target="_blank"><img src="http://img.youtube.com/vi/qJu69sHTsoA/0.jpg" 
-alt="Remote Controlled Raspberry Pi Rover" width="240" height="180" border="1" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=qJu69sHTsoA" target="_blank"><img src="http://img.youtube.com/vi/qJu69sHTsoA/0.jpg" alt="Remote Controlled Raspberry Pi Rover" border="1"></a>
 
 
 ## Hardware Setup
