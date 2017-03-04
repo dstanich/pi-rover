@@ -1,14 +1,14 @@
 {
   "name": "pi-rover",
   "version": "1.0.0",
-  "description": "This repo contains code for the client and server of the pi-rover.  This was a hobby project so things may not work perfectly.",
+  "description": "Raspberry Pi powered robot software",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "git clone git@github.com:adafruit/Adafruit-Motor-HAT-Python-Library.git"
   },
-  "author": "",
+  "author": "David Stanich",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.16.1",
